@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  auth-service:
+    image: 559266917668.dkr.ecr.ap-south-1.amazonaws.com/auth-dev-cicd:23
+    ports:
+      - 3001:3001
